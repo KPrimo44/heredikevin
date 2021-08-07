@@ -1,0 +1,35 @@
+{
+	"name": "discord-music-bot",
+	"version": "0.1.0",
+	"description": "Very simple discord music bot with the discordjs.guide command handler for easy learning and adapting.",
+	"main": "src/index.js",
+	"author": "iCrawl <icrawltogo@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"discord.js": "^12.5.1",
+		"dotenv": "^8.2.0",
+		"ffmpeg-static": "^4.2.7",
+		"humanize-duration": "^3.25.1",
+		"moment": "^2.29.1",
+		"opusscript": "0.0.8",
+		"parse-duration": "^0.4.4",
+		"ytdl-core": "^4.5.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.20.0",
+		"eslint-config-aqua": "^8.0.0"
+	},
+	"optionalDependencies": {
+		"@discordjs/opus": "^0.4.0",
+		"erlpack": "github:discord/erlpack",
+		"zlib-sync": "^0.1.7"
+	},
+	"eslintConfig": {
+		"extends": "aqua/node"
+	}
+	
+}
